@@ -1,0 +1,52 @@
+.topcard-container {
+  max-width: 150px;
+  min-width: 140px;
+  height: 80px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.topcard-container:hover {
+  background-color: rgb(28, 62, 61) !important;
+}
+
+.active-card {
+  background-color: rgb(28, 62, 61) !important;
+}
+.settingtopcard-container{
+  max-width: 150px;
+  min-width: 100px;
+  height: 80px;
+  border-radius: 6px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; */
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: rgb(112, 167, 255)!important;
+}
+.settingtopcard-container:hover {
+  background-color: rgb(66, 119, 219) !important;
+}
+
+.settingactive-card {
+  background-color:rgb(66, 119, 219) !important;
+}
+.card-title {
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.card-data {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-val {
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+}

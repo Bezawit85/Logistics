@@ -1,0 +1,26 @@
+.circular-bar-container {
+  margin: 5px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circular-bar {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.circular-bar-percent {
+  text-align: center;
+  margin-top: 35%;
+}
+.circular-bar-percent .bar-text {
+  word-wrap: break-word;
+}
+.bar-text{
+  font-size: .75rem;
+}

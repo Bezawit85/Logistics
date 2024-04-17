@@ -1,0 +1,55 @@
+.nav-container {
+  position: fixed;
+  height: 12%;
+  z-index: 100;
+  width: 100%;
+  background-color:rgb(247, 247, 247); 
+    box-shadow: -1px 2px 12px 1px rgba(200, 224, 247, 0.75);
+-webkit-box-shadow: -1px 2px 12px 1px rgba(200, 215, 228, 0.75);
+-moz-box-shadow: -1px 2px 12px 1px rgba(167, 207, 242, 0.75);
+  margin-bottom: 50px;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.nav-logo .logo {
+  color: black;  font-size: 30px;
+  font-weight: 700;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  column-gap: 30px;
+  margin-right: 30px;
+}
+.profileDropDownList{
+  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  align-items: center-;
+  color: black !important;
+  padding: 10px;
+
+}
+
+.profileImage{
+  
+  width: 100px; 
+   height: 100px; 
+   border-radius: 100px; 
+   background-size: cover; /* Make the image cover the entire container */
+   background-position: center; /* Center the image within the container */
+   background-repeat: no-repeat; 
+}
+.menu-container{
+  /* z-index: 1000 !important; */
+  color: black;
+  background-color:rgb(247, 247, 247); 
+  /* opacity: 0%; */
+ 
+}

@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800;900&display=swap");
+.userTable {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: auto;
+  font-size: 14px;
+}
+
+.tableUser {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin: 40px auto;
+}
+.tableUser tr:nth-child(even) {
+  background-color: rgb(220, 220, 220);
+}
+.tableUser th,
+.tableUser td {
+  text-align: center;
+}
+.tableUser td {
+  padding: 5px;
+  font-size: 13px;
+
+}
+.tableUser th {
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  background-color: rgba(8, 80, 170);
+  color: white;
+}
+
+.tableUser tr {
+  border-top: 0.4px solid rgb(197, 197, 197);
+  border-bottom: 0.4px solid rgb(197, 197, 197);
+}
+
+.usersList {
+  text-align: center;
+}
+.wrapItems {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 50px;
+}
+
+/* UserModal.css */
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 350px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  margin-top: 20px;
+}
+
+.labelList {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+input[type="text"] {
+  width: calc(100% - 40px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #c9009d;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+done:hover {
+  background-color: rgba(53, 108, 226, 0.925);
+}
+.done {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(74, 94, 112);
+  color: white;
+}
+.cancl {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(179, 29, 2);
+  color: white;
+}
+.cancl:hover {
+background-color: rgb(214, 37, 6);
+}
+.doneBtn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -1,0 +1,113 @@
+.manage-modal {
+  position: fixed;
+  background-color: rgba(19, 19, 19, 0.4);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.Avatar-modal{
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 60vw;
+  max-width: 100%;
+  animation: slideInDown 0.8s ease-in;
+}
+.manage-modal .manage-modal-content {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 50vw;
+  max-width: 600px;
+  animation: slideInDown 0.8s ease-in;
+}
+.manage-modal-content form {
+  width: 100%;
+}
+.manage-modal .modal-title {
+  border-bottom: 2px solid rgb(159, 159, 159);
+  border-radius: 0;
+}
+.manage-modal label {
+  font-size: 16px;
+  color: black;
+}
+.manage-modal input {
+  background-color: rgb(227, 227, 227);
+  text-align: center;
+  margin-bottom: 15px;
+  width: 100%;
+  display: block;
+  height: 35px;
+}
+.manage-modal select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  height: 35px;
+}
+.btn {
+  display: block;
+  padding: 5px 15px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgb(146, 49, 198);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 16px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+.pay-modal input {
+  text-align: left;
+  height: 40px;
+}
+.btn-bg-blue {
+  background-color: rgb(8, 80, 170);
+  transition: all 0.3s ease-in-out;
+}
+.btn-bg-blue:hover {
+  background-color: rgb(5, 48, 100);
+}
+.btn-manage {
+  background-color: rgb(146, 49, 198);
+}
+.btn-manage:hover {
+  background-color: rgb(117, 10, 175);
+}
+.btn-cancel {
+  background-color: rgb(246, 71, 71);
+}
+.btn-cancel:hover {
+  background-color: rgb(237, 33, 33);
+}
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 900px) {
+  .manage-modal .manage-modal-content {
+    min-width: 400px;
+    max-width: 450px;
+  }
+}
+@media (max-width: 570px) {
+  .manage-modal .manage-modal-content {
+    width: 80%;
+  }
+}
