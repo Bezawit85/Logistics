@@ -1,0 +1,54 @@
+.manage-modal-content form {
+  width: 100%;
+}
+.manage-window {
+  max-width: 700px;
+  margin-left: 20px;
+}
+.manage-window .modal-title {
+  border-bottom: 2px solid rgb(159, 159, 159);
+  border-radius: 0;
+}
+.manage-window label {
+  font-size: 16px;
+  color: black;
+}
+
+.manage-window input,
+.manage-window select {
+  background-color: rgb(227, 227, 227);
+  text-align: center;
+  margin-bottom: 10px;
+  width: 90%;
+  display: block;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 12px;
+  max-width: 300px;
+}
+.manage-window input[type="date"] {
+  min-width: 200px;
+}
+/* .manage-window select {
+  min-width: 200px;
+} */
+.manage-window option {
+  display: block;
+  height: 40px;
+}
+.manage-window input:enabled {
+  border: 1px solid rgb(196, 39, 131);
+}
+.btn-bg-gray {
+  background-color: rgb(100, 100, 100);
+}
+.btn-bg-gray:hover {
+  background-color: rgb(41, 43, 43);
+}
+.btn:disabled {
+  background-color: rgb(135, 130, 130);
+  cursor: not-allowed;
+}
+.btn-bg-lightred {
+  background-color: rgb(203, 42, 42);
+}

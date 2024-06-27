@@ -1,0 +1,45 @@
+.error-container {
+  width: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  background-color: rgb(240, 240, 240);
+}
+.error-msg {
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+}
+.error-msg img {
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.error-msg h1,
+.error-msg h2 {
+  text-align: center;
+}
+.error-msg h1 {
+  font-size: 40px;
+}
+.error-msg h2 {
+  font-size: 35px;
+}
+
+@media (max-width: 570px) {
+  .error.msg {
+    width: 300px;
+    height: 250px;
+  }
+  .error-msg h1 {
+    font-size: 30px;
+  }
+  .error-msg h2 {
+    font-size: 25px;
+  }
+}

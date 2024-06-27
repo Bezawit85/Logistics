@@ -1,0 +1,14 @@
+.new-market-inputs {
+  display: flex;
+  max-width: 800px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ToastContainer{
+  border: 2px solid red;
+  height: 50px ; 
+}
