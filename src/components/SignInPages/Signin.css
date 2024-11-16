@@ -16,6 +16,15 @@ body{
       overflow: hidden;
 
   }
+  .signinLogo {
+    width: 100%; 
+    max-width: 200px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+  }
+  
   .confirmWrapper{
     display: flex;
     max-width: 85%;

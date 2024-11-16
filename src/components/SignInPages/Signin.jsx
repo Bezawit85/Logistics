@@ -141,7 +141,7 @@ export default function SignIn() {
       <div className="SigninWrapper">
         <div className="left-side">
           {/* <div className="left-SideInner"> */}
-          <img className="signinLogo" src={logo} alt="BazraLogo" />
+          <img className="signinLogo" src='Bazra.png' alt="BazraLogo" />
           <span className="signInBold">Bazra Tracker System</span>
           <p>
             A system that controls every movement of a driver and ensures timely
