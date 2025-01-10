@@ -44,14 +44,12 @@ const UserModal = ({ isOpen, onCloseModal}) => {
           "Content-Type": "application/json",
         },
       });
-      console.log("Backend Response:", response.data);
       if (response.status === 200) {
         console.log("User created successfully");
         swal("Successful", `User created successfully`, "success", {
           buttons: false,
           timer: 2000,
         });
-        alert(response.data.message);
         reset();
       } else {
         setError("Failed to create user.");

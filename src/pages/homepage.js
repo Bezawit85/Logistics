@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./home.css";
 import BarChar from "../components/Charts/BarChar";
-import { Chart } from "chart.js/auto";
 import DoughnutChart from "../components/Charts/DoughnutChart";
 import CircularBar from "../components/circularBar/circularBar";
 import { useLoadContext } from "../components/context/DataLoadContext";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ReactLoading from "react-loading";
 import { showSignInMessage } from "../components/SwalMessages";
 const Homepage = () => {
@@ -15,7 +14,7 @@ const Homepage = () => {
   });
   // GETTING DATA FROM LOADCONTEXT
   const { payload, loading, error, setRefresh } = useLoadContext();
-  const navigater = useNavigate();
+
   useEffect(() => {
     if (error == "session expired") {
       showSignInMessage(() => (window.location.href = "/"));
