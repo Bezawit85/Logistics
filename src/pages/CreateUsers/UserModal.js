@@ -51,7 +51,6 @@ const UserModal = ({ isOpen, onCloseModal}) => {
           buttons: false,
           timer: 2000,
         });
-        alert(response.data.message);
         reset();
       } else {
         setError("Failed to create user.");
