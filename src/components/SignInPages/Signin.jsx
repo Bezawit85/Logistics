@@ -142,7 +142,7 @@ export default function SignIn() {
         <div className="left-side">
           {/* <div className="left-SideInner"> */}
           <img className="signinLogo" src='Bazra.png' alt="BazraLogo" />
-          <span className="signInBold">Bazra Tracker System</span>
+          <span className="signInBold">Bazra Logistics Platform</span>
           {/* </div> */}
         </div>
         <form className="SigninForm" onSubmit={validation}>
